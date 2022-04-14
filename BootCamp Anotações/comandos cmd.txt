@@ -1,0 +1,5 @@
+DIR- Listar pastas
+CD - escolher pasta (nome ou /para passar)
+MKDIR - Criar pasta + nome
+DEL / RMDIR - Del (apagar dentro da pasta) Rmdir (apagar tudo)
+cls- limpar
