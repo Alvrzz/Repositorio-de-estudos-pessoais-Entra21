@@ -1,0 +1,24 @@
+(ATENÇÃO LUAN)
+ |
+ |
+ 
+.NOME DO CLASS DA FOTO (SAITAMA ETC){
+    width: auto;
+    height: auto;
+    background-color:transparent;
+    position: relative;
+    animation-name: EXEMPLO;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes EXEMPLO {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    25%  {background-color:transparent; left:500px; top:0px;}
+    50%  {background-color:transparent; left:500px; top:500px;}
+    75%  {background-color:transparent; left:-500px; top:500px;}
+    100% {background-color:transparent; left:-500px; top:0px;}
+  }

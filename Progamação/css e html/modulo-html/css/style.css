@@ -1,0 +1,51 @@
+*{
+   
+    
+    font-family: 'Lato', sans-serif;
+    text-decoration:none;   
+    color: white;
+
+}
+.azul{
+   color: rgb(187, 158, 253) !important;
+}
+  body{
+      background-image:url(BACk.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+  }
+  .delta{
+    width: 300px !important; 
+    font-size: 25px;
+      }
+    
+       
+
+  .penis{
+      margin-top: 10px;
+  }
+  .galeria{
+     
+      display: flex;
+      position: 400px;
+      
+      
+     
+      width: 300px;
+
+      ;
+      padding: 0px;
+      margin: 0px; 
+
+
+  }
+  .text{
+      
+      color: rgb(253, 158, 234) !important;
+      }
+
+
+      ul{
+          color: rgb(253, 158, 234) !important;
+      }

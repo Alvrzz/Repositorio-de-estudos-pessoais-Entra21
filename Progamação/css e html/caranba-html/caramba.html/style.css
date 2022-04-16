@@ -1,0 +1,90 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+ 
+}
+
+
+body{
+   background-color:#0f0f0f;
+    
+}
+
+.form{
+    text-align: center;
+    padding: 20px;
+}
+.form img{
+    max-width:500px;
+    width:100% ;
+}
+
+.form input[type=text],
+.form input[type=email]
+{
+    font-size: 15px;
+    border-radius: 6px;
+    padding-left:5px ;
+   margin:4px auto;
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    height:30px;
+    border:1px solid whitesmoke ;
+
+}
+.form textarea{
+    resize: none;
+    font-size: 15px;
+    border-radius: 6px;
+    padding-left:5px ;
+   margin:4px auto;
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    height:120px;
+    border:1px solid whitesmoke ;
+}
+.form input[type=submit]{
+
+
+    background-color: red;
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 6px;
+    padding-left:5px ;
+   margin:4px auto;
+    display: block;
+    max-width: 200px;
+    width: 100%;
+    height:30px;
+    border:0px solid whitesmoke ;
+    cursor: pointer;
+   
+    
+}
+
+.pinto{
+    width: auto;
+    height: auto;
+    background-color:transparent;
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes example {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    25%  {background-color:transparent; left:500px; top:0px;}
+    50%  {background-color:transparent; left:500px; top:500px;}
+    75%  {background-color:transparent; left:-500px; top:500px;}
+    100% {background-color:transparent; left:-500px; top:0px;}
+  }
+  
