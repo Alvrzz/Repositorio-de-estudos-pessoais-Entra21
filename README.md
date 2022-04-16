@@ -17,5 +17,3 @@ Atualmente, estou procurando oportunidades que me permitam incorporar o meu conh
 
 Tenho facilidade para aprender e assimilar novos conceitos. Gosto de gerar novas ideias e desenvolver soluções viáveis para problemas amplamente relevantes.
 
-![](C:\Users\luazi\Downloads\template (21) (1).jpg)
-
