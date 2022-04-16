@@ -1,0 +1,21 @@
+20 e 21: File Transfer Protocol (FTP)
+
+22: Secure Shell (SSH)
+
+23: Telnet remote login service
+
+25: Simple Mail Transfer Protocol (SMTP)
+
+53: Domain Name System (DNS) service
+
+80: Hypertext Transfer Protocol (HTTP)
+
+110: Post Office Protocol (POP3)
+
+119: Network News Transfer Protocol (NNTP)
+
+143: Internet Message Access Protocol (IMAP)
+
+161: Simple Network Management Protocol (SNMP)
+
+443: HTTP Secure (HTTPS)
