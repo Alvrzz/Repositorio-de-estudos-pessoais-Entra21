@@ -1,5 +1,5 @@
-# :star2:Primeiro Repositório do desafio de projeto da Dio :star2:
-:point_right:Desafio de <u>projeto</u> Git/GitHub :point_left:
+# :star2:Primeiro Repositório de aprendizado :star2:
+:point_right:Acompanhamento do meu desenvolvimento e aprendizado :point_left:
 
 Compartilhando meu aprendizado seja na plataforma ou em estudos pessoais.:purple_heart:
 
