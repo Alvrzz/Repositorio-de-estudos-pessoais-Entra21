@@ -1,6 +1,6 @@
 *{
    
-    
+    margin: center;
     font-family: 'Lato', sans-serif;
     text-decoration:none;   
     color: white;
@@ -10,6 +10,7 @@
    color: rgb(187, 158, 253) !important;
 }
   body{
+      margin: auto;
       background-image:url(BACk.jpg);
      background-repeat: no-repeat;
      background-size: cover;
@@ -23,20 +24,21 @@
        
 
   .deltacore{
-      margin-top: 10px;
+      margin-top: auto
   }
   .galeria{
      
-      display: flex;
-      position: 400px;
+    margin:auto
+     
       
       
      
-      width: 300px;
+      width: 100%
+            
 
-      ;
-      padding: 0px;
-      margin: 0px; 
+      
+     
+      
 
 
   }

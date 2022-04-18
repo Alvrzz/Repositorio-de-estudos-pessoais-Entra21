@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align-itens</title>
+</head>
+<style>
+    .container{
+        max-width: 350px;
+        border: 1px solid black;
+        display: flex;
+    }
+
+    .item{
+        background-color: blueviolet;
+        margin: 5px;
+        color: aliceblue;
+        text-align: center;
+        flex: 1;
+    }
+    .flex{
+        flex: 1;
+    }
+    .center{
+        align-items: center;
+    }
+    .stretch{
+        align-items: stretch;
+    }
+    .start{
+        align-items: flex-start;
+    }
+
+    .end{
+        align-items: flex-end;
+    }
+    .baseline{
+        align-items: baseline;
+    }
+</style>
+<body>
+    <p>center</p>
+    <section class="container center flex">
+        <div class="item">DOLAR</div>
+        <div class="item">EURO É A MELHOR MOEDA</div>
+        <div class="item">LIBRA QUE É MANO KKK</div>
+    </section>
+
+    <p>stretch</p>
+    <section class="container stretch">
+        <div class="item">DOLAR </div>
+        <div class="item">EURO É A MELHOR MOEDA EURO É A MELHOR MOEDAEURO É A MELHOR MOEDAEURO É A MELHOR MOEDA</div>
+        <div class="item">LIBRA QUE É MAN KKK</div>
+    </section>
+    <P>Flex Start</P>
+    <section class="container start">
+        <div class="item">DOLAR </div>
+        <div class="item">EURO É A MELHOR MOEDA EURO É A MELHOR MOEDAEURO É A MELHOR MOEDAEURO É A MELHOR MOEDA</div>
+        <div class="item">LIBRA QUE É MAN KKK</div>
+    </section>
+
+    <P>Flex End</P>
+    <section class="container end">
+        <div class="item">DOLAR </div>
+        <div class="item">EURO É A MELHOR MOEDA EURO É A MELHOR MOEDAEURO É A MELHOR MOEDAEURO É A MELHOR MOEDA</div>
+        <div class="item">LIBRA QUE É MAN KKK</div>
+    </section>
+
+    <P>baseline</P>
+    <section class="container baseline">
+        <div class="item">DOLAR </div>
+        <div class="item">EURO É A MELHOR MOEDA EURO É A </div>
+        <div class="item">LIBRA QUE </div>
+    </section>
+    
+</body>w
+</html>
