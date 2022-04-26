@@ -6,7 +6,7 @@ def contador_letras(lista_palavras):
     return contador
 
 if __name__ == '__main__': 
-    lista = ['palavra', 'palavra'] #<----COLOQUE AQUI A PALAVRA
+    lista = ['palavras', 'palavras'] #<----COLOQUE AQUI A PALAVRA
     print('--'*30)
     print('Total de letras:', contador_letras(lista))
     print('--'*30)
