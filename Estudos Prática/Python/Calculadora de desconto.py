@@ -1,4 +1,4 @@
-n = float(input('Digite o numero do produto: '))
+n = float(input('Digite o valor do produto: '))
 d = float(input('Desconto: '))
 val = (n*d)/100
 se = n - val
