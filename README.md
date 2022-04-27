@@ -11,10 +11,11 @@ Compartilhando meu aprendizado seja na plataforma ou em estudos pessoais.:purple
 
 ####  Sobre mim:
 
-- Meu nome é Luan Oliveira Alvarez, tenho 19 anos. ♎ 
+- Meu nome é Luan Oliveira Alvarez, tenho 19 anos. VOCE É BABY♎ 
 - Sou um estudante trabalhando aumentar gradualmente formas de conhecimento envolvendo a tecnologia e informação. 
 
 - Atualmente, estou procurando oportunidades que me permitam incorporar o meu conhecimento visando aprendizagem.
 
 qualquer coisa
 
+Estou orgulhosa de você, show de bola :)
