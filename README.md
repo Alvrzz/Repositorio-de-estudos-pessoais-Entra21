@@ -19,3 +19,4 @@ Compartilhando meu aprendizado seja na plataforma ou em estudos pessoais.:purple
 - Tenho facilidade para aprender e assimilar novos conceitos. Gosto de gerar novas ideias e desenvolver soluções viáveis para problemas amplamente relevantes. :heavy_check_mark:
 
 deu boa
+deu ruim
