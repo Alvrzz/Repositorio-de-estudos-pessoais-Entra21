@@ -1,7 +1,9 @@
 # :star2:Primeiro Repositório de aprendizado :star2:
-:point_right:Acompanhamento do meu desenvolvimento e aprendizado :point_left:
+**Acompanhamento do meu desenvolvimento e aprendizado.** 
 
-Compartilhando meu aprendizado seja na plataforma ou em estudos pessoais.:purple_heart:
+Compartilhando meu aprendizado, seja na plataforma ou em estudos pessoais.:purple_heart:
+
+Neste **repositório** você encontrará pastas especificas e "projetos" de estudo e desenvolvimento pessoal.
 
 :boom:Links úteis para **contato** e **interação:** :boom:
 
@@ -11,8 +13,8 @@ Compartilhando meu aprendizado seja na plataforma ou em estudos pessoais.:purple
 
 ####  Sobre mim:
 
-- Meu nome é Luan Oliveira Alvarez, tenho 19 anos. ♎ 
-- Sou um estudante trabalhando aumentar gradualmente formas de conhecimento envolvendo a tecnologia e informação. 
+- Meu nome é Luan Oliveira Alvarez, tenho 19 anos. 
+- Sou um estudante buscando aumentar gradualmente formas de conhecimento envolvendo a tecnologia e informação. 
 
 - Atualmente, estou procurando oportunidades que me permitam incorporar o meu conhecimento visando aprendizagem.
 
