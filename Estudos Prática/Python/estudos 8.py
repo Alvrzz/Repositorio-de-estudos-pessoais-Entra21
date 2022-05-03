@@ -39,7 +39,7 @@ elif pc == 2: #computador jogou tesoura~
         print(f'o computador venceu com {itens[pc]}')
 
 
-print('-='*30)
+print('-='*31)
 
 
 
