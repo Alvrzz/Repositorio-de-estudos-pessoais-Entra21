@@ -26,7 +26,7 @@ programa {
     escreva("\nA área da sua terra é de ", mult,("m², sendo considerada um HECTARE DE TERRA")
     }
 
-    senao se (mult > 10000)
+    senao se (mult => 10000)
     {
     escreva("\nA área da sua terra é de ", mult,("m², sendo considerada uma FAZENDA")
     }
