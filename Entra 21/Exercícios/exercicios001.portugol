@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() 
+  {
+    real lateral, frente, mult
+    
+    escreva("Informe a frente da sua terra em metros: ")
+    leia(frente)
+
+    escreva("Informe a lateral da sua terra em metros: ")
+    leia(lateral)
+
+    mult = frente * lateral
+    
+    escreva("Este retangulo possui "+mult+ "m²")
+  }
+}
+    
+  }
+}
