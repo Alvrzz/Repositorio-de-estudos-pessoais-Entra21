@@ -1,0 +1,40 @@
+programa
+{
+	funcao inicio()
+	{
+		//Exercicio 002:
+
+        // Elabore um algoritmo que receba dois numeros pelo teclado e compare se os numeros são:
+        // - iguais
+        // - A < B 
+        // - B < A 
+        //E informe o usuário.
+
+        real a, b
+		
+		escreva("Digite o primeiro número: ")
+		leia(a)
+
+		escreva("Digite o segundo número: ")
+		leia(b)
+
+		
+		se (a == b)
+		{
+		    escreva ("Número A: ", a, " é igual ao número B: ", b)
+		}   
+
+        senao se (a < b)
+		{
+		    escreva (" Número A: ", a, " é menor do que o Número B: ", b)
+		}   
+
+        senao se (a > b)
+		{
+		    escreva ("Número B: ", b, " é menor do que Número A: ", a)
+		}   
+
+
+	
+	}
+}
