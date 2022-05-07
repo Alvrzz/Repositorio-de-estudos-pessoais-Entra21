@@ -11,28 +11,25 @@ programa {
 
     mult = frente * lateral
 
-    se (mult < 1000)
+   se (mult < 1000)
     {
-    escreva("\nA área da sua terra é de ", mult,("m², sendo considerada um TERRENO")
+    escreva("\nA área da sua terra é de ", mult,"m², sendo considerada um TERRENO")
     }
 
     senao se (mult <= 5000)
     {
-    escreva("\nA área da sua terra é de ", mult,("m², sendo considerada um SÍTIO")
+    escreva("\nA área da sua terra é de ", mult,"m², sendo considerada um SÍTIO")
     }
 
-    senao se (mult <= 10000)
+    senao se (mult <= 9999)
     {
-    escreva("\nA área da sua terra é de ", mult,("m², sendo considerada um HECTARE DE TERRA")
+    escreva("\nA área da sua terra é de ", mult,"m², sendo considerada um HECTARE DE TERRA")
     }
 
-    senao se (mult => 10000)
+    senao se (mult >= 10000)
     {
-    escreva("\nA área da sua terra é de ", mult,("m², sendo considerada uma FAZENDA")
+    escreva("\nA área da sua terra é de ", mult,"m², sendo considerada uma FAZENDA")
     }
 
-  }
-}
-    
   }
 }
