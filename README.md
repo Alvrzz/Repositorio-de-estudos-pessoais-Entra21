@@ -1,6 +1,8 @@
 # :star2:Primeiro Repositório de aprendizado :star2:
 **Acompanhamento do meu desenvolvimento e aprendizado.** 
 
+[Sobre](Sobremim:)
+
 Compartilhando meu aprendizado, seja na plataforma ou em estudos pessoais.:purple_heart:
 
 Neste **repositório** você encontrará pastas especificas e "projetos" de estudo e desenvolvimento pessoal.
