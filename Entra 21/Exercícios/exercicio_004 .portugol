@@ -1,0 +1,38 @@
+#Exercicio: Laço de Repetição
+
+#Versão 001: 
+
+- Crie um algoritmo que receba 2 numeros, 
+- multiplique o resultados de AxB.
+- Imprima o resultado na tela 
+
+
+# Versão 002:
+- adicione um laço de repetição para todo o algoritmo que seja executado 
+até que a multiplicação resulte em 1000
+- ao sair informe o usuario que o resultado é igual a 1000 e aborte o laço. 
+- utilize o recurso de funcões() para este Exercicio
+
+
+Exemplo de uso de funcoes: 
+programa{
+    funcao tatu(msg){
+        escreva(msg)
+        escreva("Muito bem!!!")
+        escreva("Voce esta indo de otimo a maravilhoso. continue assim")
+    }
+    funcao inicio(){
+        cadeia nome
+        leia(nome)        
+        tatu("Nome digitado foi:",nome)
+        xxxx
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+
+#Exercicio 001: Versão 001.
+
+    Elbore um algoritmo que calcule a área de um retangulo qualquer, 
+    recebendo, para isso o valor da base e da altura em centimetros.
+    Imprima o tamanho em centimetros. 
+    fazer commit.
+
+# Exercicio 002: Versão 002.
+
+    Adicionar condicional composta.
+    Adicione o seguinte teste em eu algoritmo: 
+    - Modifique a unidade para Metros.
+    - O Retangulo agora representará uma area de terra.
+    - Calcule a medida de frente e lateral da área e informe o usuario se a área 
+       informada se trata de:
+        - um Terreno até 1000m2, 
+        - Um sítio, até 5000m2
+        - Em Hectare de terra até 10000m2
+        - Uma fazenda acima de 10000m2 
+
+
+
+
+
+
+
+
+
+
+
