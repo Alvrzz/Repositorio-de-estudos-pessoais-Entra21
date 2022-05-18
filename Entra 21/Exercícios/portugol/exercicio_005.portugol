@@ -1,0 +1,197 @@
+/*
+# Exercicio 005
+# Uso de:
+    Caso  
+    Laços
+    Bibliteca Util     
+    funcoes do portugol 
+
+# Faça um algoritmo para contagem de votos:
+    1. Mostre um contador de 5 segundos no inicio do programa. 
+    2. Estabeleça 3 Candidados, votos brancos, e votos nulos. 
+    3. Solicite ao usuario informar o nome dos 3 candidatos.
+    4. Leias os votos (3c,br,nul) até que o usuario informe o numero 999 como numero do candidato. 
+    5. Imprimir o total de votos de cada candidato
+    6. Imprimir o percentual de votos de cada candidato em relação a quantidade de votos. 
+    7. Imprimir a contagem de brancos e nulos e seus percentuais. 
+    8. Sua imaginação é o limite. informe o usuario de tudo que vc acha importate. 
+
+programa
+{
+    inclua biblioteca Util
+    funcao inicio ()
+    inteiro contador = 5 
+    enquanto (contador > 0 )
+{
+     limpa ()
+     escreva ( "Voto Para Quem Governará a Terra Começa Em: " ,contador)
+
+     contador = contador -1
+     Util.aguarde(1000)
+}
+
+{
+
+	{
+		inteiro aliens = 0, humanos = 0, deuses = 0
+		
+		inteiro brancos = 0, nulos = 0, total_votos = 0
+		
+		real porcentagem_aliens, porcentagem_humanos, porcentagem_deuses
+		
+		real porcentagem_brancos, porcentagem_nulos
+		
+		inteiro voto
+		
+		faca
+		{
+			limpa()
+			escreva("Escolha quem voce deseja que governe a Terra ou tecle 999 e aperte ENTER para encerrar\n\n")
+			
+			
+            escreva("  1 -> Aliens\n")
+			escreva("  2 -> Humanos\n")
+			escreva("  3 -> Deuses\n")
+            escreva("  4 -> Voto em Branco\n")
+            escreva("  5 -> Voto Nulo\n")
+            		
+			escreva("\nQualquer número diferente de 1, 2, 3, 4, 5 e o voto sera anulado! \n")
+			escreva("Digite seu voto e aperte ENTER: ")
+			
+			leia(voto)
+			limpa()
+
+			escolha (voto)
+			{
+				caso 999:
+					escreva ("Votação encerrada!\n")
+				
+				caso 1: 
+			 		aliens = aliens + 1 
+                
+			 	
+			 	caso 2: 
+			 		humanos = humanos + 1 
+			 	
+			 	
+			 	caso 3: 
+			 		deuses = deuses + 1 
+			 	
+
+                caso 4:
+                    brancos = brancos + 1
+                     
+			 	
+			 	caso 5:
+			 		nulos = nulos + 1 
+
+                
+                             
+			}			 
+		}
+		enquanto(voto != 999)
+
+
+		total_votos = aliens + humanos + deuses + nulos + brancos
+
+		
+		
+		programa
+{
+    inclua biblioteca Util
+    funcao inicio ()
+    inteiro contador = 5 
+    enquanto (contador > 0 )
+{
+     limpa ()
+     escreva ( "Voto Para Quem Governará a Terra Começa Em: " ,contador)
+
+     contador = contador -1
+     Util.aguarde(1000)
+}
+
+{
+
+	{
+		inteiro aliens = 0, humanos = 0, deuses = 0
+		
+		inteiro brancos = 0, nulos = 0, total_votos = 0
+		
+		real porcentagem_aliens, porcentagem_humanos, porcentagem_deuses
+		
+		real porcentagem_brancos, porcentagem_nulos
+		
+		inteiro voto
+		
+		faca
+		{
+			limpa()
+			escreva("Escolha quem voce deseja que governe a Terra ou tecle 999 e aperte ENTER para encerrar\n\n")
+			
+			
+            escreva("  1 -> Aliens\n")
+			escreva("  2 -> Humanos\n")
+			escreva("  3 -> Deuses\n")
+            escreva("  4 -> Voto em Branco\n")
+            escreva("  5 -> Voto Nulo\n")
+            		
+			escreva("\nQualquer número diferente de 1, 2, 3, 4, 5 e o voto sera anulado! \n")
+			escreva("Digite seu voto e aperte ENTER: ")
+			
+			leia(voto)
+			limpa()
+
+			escolha (voto)
+			{
+				caso 999:
+					escreva ("Votação encerrada!\n")
+				
+				caso 1: 
+			 		aliens = aliens + 1 
+                
+			 	
+			 	caso 2: 
+			 		humanos = humanos + 1 
+			 	
+			 	
+			 	caso 3: 
+			 		deuses = deuses + 1 
+			 	
+
+                caso 4:
+                    brancos = brancos + 1
+                     
+			 	
+			 	caso 5:
+			 		nulos = nulos + 1 
+
+                
+                             
+			}			 
+		}
+		enquanto(voto != 999)
+
+
+		total_votos = aliens + humanos + deuses + nulos + brancos
+
+		
+		
+		se (total_votos > 0)
+		{
+			porcentagem_aliens = (aliens * 100.0) / total_votos  
+            porcentagem_humanos = (humanos * 100.0) / total_votos
+			porcentagem_deuses = (deuses * 100.0) / total_votos
+			porcentagem_brancos = (brancos * 100.0) / total_votos
+			porcentagem_nulos = (nulos * 100.0) / total_votos
+
+			escreva("\n")
+			
+			escreva("Total de votos: ", total_votos, "\n\n")
+			escreva("Aliens: " , aliens, " voto(s). ", porcentagem_aliens, " % do total\n" )
+			escreva("Humanos: ", humanos, " voto(s). ", porcentagem_humanos, " % do total\n" )
+            escreva("Deuses: ", deuses, " voto(s). ", porcentagem_deuses, " % do total\n" )
+			escreva("Brancos: ", brancos, " voto(s). ", porcentagem_brancos, " % do total\n")
+			escreva("Nulos: ", nulos, " voto(s). ", porcentagem_nulos, " % do total\n")
+		}   escreva ("\n\nMuito obrigado pela sua participação")
+	}       
+}

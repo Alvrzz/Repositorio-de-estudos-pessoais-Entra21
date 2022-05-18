@@ -36,3 +36,18 @@
 		}
 	}
 }
+
+	programa{
+  	inclua biblioteca Util
+
+  	função inicio(){
+    	inteiro i, vet[20]
+
+    	para(i = 0; i < 10; i++)
+      	vet[i] = Util.sorteia(0, 20)
+
+    	para(i = 0; i < 10; i++)
+      	escreva(vet[i], ", ")
+     	 escreva("\n")
+  }
+}
