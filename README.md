@@ -7,11 +7,19 @@ Neste **repositório** você encontrará pastas especificas e "**projetos**" de 
 
 
 
-#### Atalho rápido:
+#### 💎Atalho rápido:
 
-[Anotações](\Repositorio-de-estudos-pessoais\Anotações)    [Entra21_Exercícios](Repositorio-de-estudos-pessoais\Entra 21\Exercícios)   [Estudos_prática](Repositorio-de-estudos-pessoais\Estudos Prática)   [Banco_de_dados](Repositorio-de-estudos-pessoais\Projetos Banco de dados)
+📁[Anotações](https://github.com/Alvrzz/Repositorio-de-estudos-pessoais/tree/main/Anotações)   
 
-:boom:Links úteis para **contato** e **interação:** :boom:
+📁[Entra21_Exercícios](https://github.com/Alvrzz/Repositorio-de-estudos-pessoais/tree/main/Entra%2021/Exercícios) 
+
+📁[Estudos_prática](https://github.com/Alvrzz/Repositorio-de-estudos-pessoais/tree/main/Estudos%20Prática)  
+
+[📁Banco_de_dados](https://github.com/Alvrzz/Repositorio-de-estudos-pessoais/tree/main/Projetos%20Banco%20de%20dados/)
+
+
+
+#### :boom:Links úteis para **contato** e **interação:**
 
 :link:[Linkedin](https://www.linkedin.com/in/luan-alvarez-1499a7224/)
 
@@ -19,7 +27,7 @@ Neste **repositório** você encontrará pastas especificas e "**projetos**" de 
 
 
 
-####  Sobre mim:
+####  💢Sobre mim: 
 
 - Meu nome é Luan Oliveira Alvarez, tenho 19 anos. 
 - Sou um estudante buscando aumentar gradualmente formas de conhecimento envolvendo a tecnologia e informação. 
