@@ -1,6 +1,7 @@
 def calcula_media(aluno):
     boletim = []
-    for i in aluno:        
+    for i in aluno:
+
         mr = round(sum(i['Notas'])/len(i['Notas']), 1)
         boletim.append({'Nome': i['Nome'], 'Media das notas': mr})
 
@@ -11,6 +12,7 @@ def calcula_media(aluno):
         boletim.append({'Nome3': i['Nome3'], 'Media das notas': mr3})
 
     return boletim
+
 
 aluno = [{
     'Nome': 'Adriano',

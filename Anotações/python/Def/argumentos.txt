@@ -1,0 +1,12 @@
+Para diferenciar o que é um parâmetro do que é um argumento, eu tento pensar no mundo dos games. Nesse sentido, um parâmetro seria o nome de uma opção e o argumento seria a escolha que fizéssemos, tal como indica a tabela a seguir:
+
+Parâmetro							Argumento
+Nível de dificuldade						Fácil
+								Médio
+								Difícil
+Legendas							Verdadeiro
+								Falso
+Volume	1							até 10
+
+
+Simplificadamente, um argumento é o valor que um dado parâmetro recebe.
