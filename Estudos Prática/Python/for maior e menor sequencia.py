@@ -12,4 +12,4 @@ for p in range(1,6):
         if peso < menor:
             menor = peso
 
-print(f'O menor doi de {menor} e o maior foi de {maior} ')
+print(f'O menor foi de {menor} e o maior foi de {maior} ')
