@@ -1,0 +1,2 @@
+python -m venv venv #para criar
+.\venv\Scripts\Activate.psl

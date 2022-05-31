@@ -1,0 +1,5 @@
+às vezes precisaremos mudar o encoding. Possiveis valores para testar:
+
+encoding='latin1', encoding='ISO-8859-1', encoding='utf-8' ou então encoding='cp1252'
+
+vendas_df = pd.read_csv(r'Arquivo', sep=';', encoding='ISO-8859-1')
