@@ -9,13 +9,13 @@ Neste **repositório** você encontrará pastas especificas e "**projetos**" de 
 
 #### 💎Atalho rápido:
 
-📁[Anotações](https://github.com/Alvrzz/Repositorio-de-estudos-pessoais/tree/main/Anotações)   
+📁[Anotações](https://github.com/Alvrzz/Repositorio-de-estudos-pessoais-Entra21/tree/main/repositorio_de_estudos_entra21/anotacoes)   
 
-📁[Entra21_Exercícios](https://github.com/Alvrzz/Repositorio-de-estudos-pessoais/tree/main/Entra%2021/Exercícios) 
+📁[Entra21_Exercícios](https://github.com/Alvrzz/Repositorio-de-estudos-pessoais-Entra21/tree/main/repositorio_de_estudos_entra21/entra_21/Exercícios) 
 
-📁[Estudos_prática](https://github.com/Alvrzz/Repositorio-de-estudos-pessoais/tree/main/Estudos%20Prática)  
+📁[Estudos_prática](https://github.com/Alvrzz/Repositorio-de-estudos-pessoais-Entra21/tree/main/repositorio_de_estudos_entra21/estudos_pratica)  
 
-[📁Banco_de_dados](https://github.com/Alvrzz/Repositorio-de-estudos-pessoais/tree/main/Projetos%20Banco%20de%20dados/)
+[📁Banco_de_dados](https://github.com/Alvrzz/Repositorio-de-estudos-pessoais-Entra21/tree/main/repositorio_de_estudos_entra21/projetos_banco_de_dados/)
 
 
 
