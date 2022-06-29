@@ -1,15 +1,12 @@
-maior= 0
-menor= 0
+lista_completa = [ x for x in range(1,43)]
+lista_pares = []
+lista_impares = []
 
-for p in range(1,6):
-    peso = float(input(f'Peso da {p}ª pessoa: '))
-    if p == 1:
-        maior = p
-        menor = p
-    else:
-        if peso > maior:
-            maior = peso
-        if peso < menor:
-            menor = peso
+for c in lista_completa:
+  if c % 2 == 0:
+    lista_pares.append(c)
+  else:
+    lista_impares.append(c)
 
-print(f'O menor foi de {menor} e o maior foi de {maior} ')
+print(lista_impares)
+print(lista_pares)

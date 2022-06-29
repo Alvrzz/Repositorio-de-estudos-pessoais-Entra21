@@ -1,0 +1,55 @@
+merge = left, right, outer, inner
+
+left:
+- prioridade do dataframe da esquerda
+- inclui todas as linhas do dataframe da esquerda em um novo dataframe
+- se uma chave do dataframe da esquerda não existir no dataframe da direita, as novas colunas do dataframe da direita será valor NaN no terceiro df
+- se a chave só existir no dataframe da direita e não no da esquerda, ele não será incluido no terceiro dataframe
+- para que o valor do dataframe da direita seja incluido no terceiro, tem que haver correspondência nas chaves.
+
+   DF_ESQUERDA             DF_DIREITA                   TERCEIRO_DF
+   CHAVE  A   B            CHAVE   C   D     ->         CHAVE   A   B   C   D
+0  K1    A1  B1         0  K1     C1  D1     ->      0  K1     A1  B1  C1  D1
+1  K2    A2  B2         1  K2     C2  D2     ->      1  K2     A2  B2  C2  D2
+2  K3    A3  B3         2  K4     C4  D4     ->      2  K3     A3  B3  NaN NaN
+
+
+right:
+- prioridade do dataframe da direita
+- inclui todas as linhas do dataframe da direita em um novo dataframe
+- se uma chave do dataframe da direita não existir no dataframe da esquerda, as novas colunas do dataframe da esquerda será valor NaN no terceiro df
+- se a chave só existir no dataframe da esquerda e não no da direita, ele não será incluido no terceiro dataframe
+- para que o valor do dataframe da esquerda seja incluido no terceiro, tem que haver correspondência nas chaves.
+
+   DF_ESQUERDA             DF_DIREITA                   TERCEIRO_DF
+   CHAVE  A   B            CHAVE   C   D     ->         CHAVE   A   B   C   D
+0  K1    A1  B1         0  K1     C1  D1     ->      0  K1     A1  B1  C1  D1
+1  K2    A2  B2         1  K2     C2  D2     ->      1  K2     A2  B2  C2  D2
+2  K3    A3  B3         2  K4     C4  D4     ->      2  K4     NaN NaN C4  D4
+
+
+outer:
+- sem prioridades
+- inclui todas as linhas do dataframe da esquerda e da direita em um novo dataframe
+- indepedente se há correspondência de chaves ou não
+- se não houver correspondência de chaves as colunas que não há valor será preenchida com NaN
+- se houver correspondência, os valores serão preenchidos com os valores do outro dataframe
+
+   DF_ESQUERDA             DF_DIREITA                   TERCEIRO_DF
+   CHAVE  A   B            CHAVE   C   D     ->         CHAVE   A   B   C   D
+0  K1    A1  B1         0  K1     C1  D1     ->      0  K1     A1  B1  C1  D1
+1  K2    A2  B2         1  K2     C2  D2     ->      1  K2     A2  B2  C2  D2
+2  K3    A3  B3         2  K4     C4  D4     ->      2  K3     A3  B3  NaN NaN
+                                                     3  K4     NaN NaN C4  D4
+
+inner:
+- sem prioridades
+- inclui apenas as linhas que há correspondência nos dois dataframes
+- para que a chave passe para o terceiro dataframe, a chave tem que existir no dataframe da esquerda e no da direita.
+- as chaves que não existir nos dois dataframes não irá para o terceiro dataframe, assim, não haverá valores NaN
+
+   DF_ESQUERDA             DF_DIREITA                   TERCEIRO_DF
+   CHAVE  A   B            CHAVE   C   D     ->         CHAVE   A   B   C   D
+0  K1    A1  B1         0  K1     C1  D1     ->      0  K1     A1  B1  C1  D1
+1  K2    A2  B2         1  K2     C2  D2     ->      1  K2     A2  B2  C2  D2
+2  K3    A3  B3         2  K4     C4  D4     ->
