@@ -33,4 +33,4 @@ Neste **repositório** você encontrará pastas especificas e "**projetos**" de 
 - Sou um estudante buscando aumentar gradualmente formas de conhecimento envolvendo a tecnologia e informação. 
 - Tenho facilidade para aprender e assimilar novos conceitos. Gosto de gerar novas ideias e desenvolver soluções viáveis para problemas amplamente relevantes. :heavy_check_mark:
 
-![](https://media-exp1.licdn.com/dms/image/C4D16AQFqcTsR7325FQ/profile-displaybackgroundimage-shrink_350_1400/0/1652510028259?e=1658361600&v=beta&t=RF67uTpPL5ii_QLbGWrj9-WOx7-FdhtHCwEYqcyW15s)
+
